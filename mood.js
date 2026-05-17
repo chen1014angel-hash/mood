@@ -26,22 +26,3 @@ resetBtn.addEventListener('click', () => {
     moodTitle.innerText = '今天心情如何？'
     moodTitle.style.color='#050505'
 });
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h2 id="moodTitle">今天心情如何？</h2>
-
-    <div id="colorBox">
-        <img id="moodImg" src="正常.png" alt="當前心情" style="width: 200px;">
-    </div>
-    <br> <button id="happyBtn">開心</button>
-    <button id="sadBtn">憂鬱</button>
-    <button id="resetBtn">恢復原狀</button>
-</body>
-<script src="mood.js"></script>
-</html>
